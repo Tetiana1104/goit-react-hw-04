@@ -40,7 +40,6 @@ const SearchBar = ({ onSubmit }) => {
           },
         }}
       />
-      ;
       <form onSubmit={handleSubmit} className={s.searchForm}>
         <div className={s.inputWrapper}>
           <button type="submit" className={s.button}>
